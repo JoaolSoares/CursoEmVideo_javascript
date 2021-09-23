@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background: rgb(114, 13, 55);
+            color: rgb(255, 255, 255);
+            font: Normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando DOM</h1>
+    <p>Primeiros passos em <strong>DOM</strong></p>
+    <div id='msg'>Clique aqui</div>
+
+    <script>
+        document.write('</br></br>Apartir daqui é js:</br></br>')
+
+        // da um get no itenm [0] com a tag p no HTML
+        var p1 = window.document.getElementsByTagName('p')[0]
+        // reescreve todo o html da tag p
+        window.document.write(p1.innerHTML + '</br>')
+        // muda o cor de uma tag p do html
+        p1.style.color = 'black'
+
+        // escreve a URL do site
+        window.document.write(window.document.URL + '</br>')
+
+        // da um get nos elementos com o ID 'msg' do HTML
+        var d = document.getElementById('msg')
+        // reescreve o HTML com o ID 'msg' que foi guardada na var acima
+        document.write(d.innerText)
+
+        // muda a cor do fundo por DOM
+        window.document.body.style.background = 'crimson'
+    </script>
+
+</body>
+</html>

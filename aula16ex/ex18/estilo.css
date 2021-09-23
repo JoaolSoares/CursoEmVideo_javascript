@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(101, 0, 196);
+    font: Normal 20pt Arial;
+    text-align: center;
+}
+
+header {
+   color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+input#txtn1 {
+    width: 70px;
+    height: 20px;
+}
+select {
+    width: 140px;
+}
+div#result {
+    margin-top: 30px;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+}

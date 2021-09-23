@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font: Normal 20px Arial;
+            margin-bottom: 10px;
+        }
+        input#txt1 {
+            width: 100px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        div {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Você é Brasileiro?</h1>
+    <p>De que País você é: </p>
+    <input type="text" name="txt1" id="txt1">
+    <input type="button" id="clicar" value="Clicar" onclick="clicar()">
+    <div id="result"></div>
+
+    <script>
+        function clicar() {
+            var txtn1 = document.getElementById('txt1').value
+            var result = document.getElementById('result')
+            if (txtn1.toUpperCase() == "BRASIL") {
+                result.innerHTML = "Sim, você é Brasileiro" 
+            }
+            else {
+                result.innerHTML = `Não, você é ${txtn1}`
+            }
+        }
+    </script>
+
+</body>
+</html>

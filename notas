@@ -1,0 +1,46 @@
+### Comandos Javascript ###
+    ECMAscript é a versão do js padronizada.
+
+### HTML ###
+    <head> - são as configs do site.
+    <body> - é o corpo.
+
+    h1 - titulo de nivel 1.
+    p - paragrafo.
+
+
+### CSS ###
+    <style> - inicia na head do HTML.
+    body {} - cores do background, fonte e derivados.
+    h1 {} - muda a cor dos titulos e funciona para outros tambem.
+
+
+### Javascript ###
+    <script> - deve ser colocado dentro do body, por ultimo.
+    var - colocar antes do nome da variavel.
+    `exemplo de ${format}` - no js o format é entre crase.
+    window - comandos de janelinha.
+        .alert('') - cria um alerta.
+        .confirm('') - cria uma confirmação.
+        .prompt('') - cria uma barra de texto.
+    Number.parseInt() - converte em int uma string.
+    Number() - ele meio que se vira pra converter.
+    String() - converte em string.
+    
+    s.length - tamanho da string.
+    s.toUpperCase() - deixa tudo em MAIUSCULA.
+    document.write - escreve no HTML.
+    numero.tofixed(n) - numero de casas depois do ponto.
+    n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - geolocaliza o valor monetario.
+    s.replace('joao', 'eu') - replace na string.
+
+    no js (5 == '5') retorna True
+    pra fazer certo usa o '===' então
+    ( 5 === '5') retorna False
+
+    function nome() {} - cria uma def
+
+    interações interessantes no ex006 e ex007
+
+    var = createelement("elemento")
+    
